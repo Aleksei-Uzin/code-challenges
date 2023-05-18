@@ -2,9 +2,6 @@
  * UEFA EURO 2016
  * https://www.codewars.com/kata/57613fb1033d766171000d60/train/javascript
  * 
- * Solution:
- * https://www.codewars.com/kata/57613fb1033d766171000d60/solutions/javascript?filter=me&sort=best_practice&invalids=false
- * 
  */
 
 function uefaEuro2016(teams, scores){

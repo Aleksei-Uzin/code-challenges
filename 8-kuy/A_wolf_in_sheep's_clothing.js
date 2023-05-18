@@ -2,9 +2,6 @@
  * A wolf in sheep's clothing
  * https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/train/javascript
  * 
- * Solution:
- * https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15/solutions/javascript?filter=me&sort=best_practice&invalids=false
- * 
  */
 
 function warnTheSheep(queue) {

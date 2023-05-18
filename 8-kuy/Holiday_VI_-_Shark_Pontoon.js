@@ -1,9 +1,6 @@
 /**
  * Holiday VI - Shark Pontoon
  * https://www.codewars.com/kata/57e921d8b36340f1fd000059/train/javascript
- * 
- * Solution:
- * https://www.codewars.com/kata/reviews/57e921e1b36340f1fd00005b/groups/634737589f0a140001432287
  *
  */
 

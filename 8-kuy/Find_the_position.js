@@ -2,9 +2,6 @@
  * Find the position!
  * https://www.codewars.com/kata/5808e2006b65bff35500008f/train/javascript
  * 
- * Solution:
- * https://www.codewars.com/kata/5808e2006b65bff35500008f/solutions/javascript?filter=me&sort=best_practice&invalids=false
- * 
  */
 
 function position(letter){
