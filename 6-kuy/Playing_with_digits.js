@@ -16,6 +16,3 @@ function digPow(n, p){
   
   return Number.isInteger(result) ? result : -1
 }
-
-console.log(digPow(89, 1))
-
