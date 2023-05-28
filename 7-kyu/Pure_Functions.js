@@ -13,4 +13,3 @@ function solution(arr, options) {
   
   return copy;
 }
-
