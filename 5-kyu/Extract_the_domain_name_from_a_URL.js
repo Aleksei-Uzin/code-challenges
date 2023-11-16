@@ -8,9 +8,9 @@ const domainName = url => {
   let domain = ''
 
   if (/^(https?|www)/.test(url)) {
-    ;[domain] = url.match(/(?<=\/\/|www\.)(?!www).+?(?=\.)/)
+    domain = url.match(/(?<=\/\/|www\.)(?!www).+?(?=\.)/)
   } else {
-    ;[domain] = url.match(/.+?(?=\.)/)
+    domain = url.match(/.+?(?=\.)/)
   }
 
   return domain
