@@ -21,15 +21,15 @@ const joinArraysById = (arr1, arr2) => {
 }
 
 // B
-// const joinArraysById = (arr1, arr2) =>
-//   [...arr1, ...arr2]
-//     .sort((a, b) => a.id - b.id)
-//     .map((x, i, arr) => {
-//       if (x.id === arr[i + 1]?.id) {
-//         x = Object.assign(x, arr[i + 1])
-//         delete arr[i + 1]
-//       }
-//
-//       return x
-//     })
-//     .filter(Boolean)
+const _joinArraysById = (arr1, arr2) =>
+  [...arr1, ...arr2]
+    .sort((a, b) => a.id - b.id)
+    .map((x, i, arr) => {
+      if (x.id === arr[i + 1]?.id) {
+        x = Object.assign(x, arr[i + 1])
+        delete arr[i + 1]
+      }
+
+      return x
+    })
+    .filter(Boolean)

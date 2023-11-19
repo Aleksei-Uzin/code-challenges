@@ -8,4 +8,4 @@
 const noSpace = str => str.replace(/\s/g, '')
 
 // B
-// const noSpace = str => str.split(' ').join('')
+const _noSpace = str => str.split(' ').join('')
