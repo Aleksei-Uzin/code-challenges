@@ -5,17 +5,13 @@
  */
 
 const squareUp = n => {
-  const res = []
+  let k = 1
 
-  for (let i = 1; i <= n; i++) {
-    const sequence = Array(n).fill(0)
+  return [...Array(n * n)].map((_, i) => {
+    const res = n - (i % n)
 
-    for (let k = n - i, j = i; k < n; k++, j--) {
-      sequence[k] = j
-    }
+    if (res === k) k++
 
-    res.push(...sequence)
-  }
-
-  return res
+    return res <= k ? res : 0
+  })
 }
