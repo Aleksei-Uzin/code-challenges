@@ -6,13 +6,12 @@
 
 const bang = () => {
   try {
-    const n = 0
     n++
   } catch (e) {
-    ;(function* () {})()['th' + 'row'](
-      new (Object.getPrototypeOf(Object.getPrototypeOf(e)).constructor)(
-        'Just th' + 'row like this!'
-      )
+    const it = (function* () {})()
+    it[`${'th'}row`](
+      new (proto(proto(e)).constructor)(`Just ${'th'}row like this!`)
     )
   }
 }
+const proto = Object.getPrototypeOf
