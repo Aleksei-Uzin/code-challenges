@@ -14,4 +14,4 @@ export const EggList = ({ eggs }) => (
   </ul>
 )
 
-export const EasterEgg = ({ key, name }) => <li key={key}>{name}</li>
+export const EasterEgg = ({ name }) => <li>{name}</li>
