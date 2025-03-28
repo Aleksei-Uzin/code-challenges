@@ -1,0 +1,21 @@
+{
+  "name": "code-challenges",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test ./gfg-160/**/*.test.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksei-Uzin/code-challenges.git"
+  },
+  "keywords": [],
+  "author": "Aliaksei-Uzin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksei-Uzin/code-challenges/issues"
+  },
+  "homepage": "https://github.com/Aleksei-Uzin/code-challenges#readme",
+  "description": "",
+  "type": "module"
+}
