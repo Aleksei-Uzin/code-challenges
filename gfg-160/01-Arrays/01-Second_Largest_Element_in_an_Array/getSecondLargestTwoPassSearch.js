@@ -1,5 +1,5 @@
 /**
- * 2 - Two Pass Search
+ * Two Pass Search
  *
  * Time Complexity:
  *  - O(2*n) = O(n), as we are traversing the array two times.
@@ -9,7 +9,7 @@
  *
  */
 
-function getSecondLargestTwoPassSearch(arr) {
+export function getSecondLargestTwoPassSearch(arr) {
   const largest = Math.max(...arr)
   let secondLargest = -1
 

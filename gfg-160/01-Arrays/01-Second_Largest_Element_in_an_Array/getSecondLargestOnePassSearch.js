@@ -1,5 +1,5 @@
 /**
- * 3 - One Pass Search
+ * One Pass Search
  *
  * Time Complexity:
  *  - O(n), as we are traversing the array only once.
@@ -9,7 +9,7 @@
  *
  */
 
-function getSecondLargestOnePassSearch(arr) {
+export function getSecondLargestOnePassSearch(arr) {
   let largest = -1
   let secondLargest = -1
 

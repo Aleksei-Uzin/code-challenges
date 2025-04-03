@@ -1,5 +1,5 @@
 /**
- * 1 - Using Sorting
+ * Using Sorting
  *
  * Time Complexity:
  *  - O(n*log(n)), as sorting the array takes O(n*log(n)) time and traversing the array can take O(n) time in the worst case,
@@ -10,7 +10,7 @@
  *
  */
 
-function getSecondLargestSorting(arr) {
+export function getSecondLargestSorting(arr) {
   arr.sore((a, b) => a - b)
   let n = arr.length
 
