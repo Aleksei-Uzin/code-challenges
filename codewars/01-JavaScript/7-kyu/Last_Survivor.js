@@ -4,6 +4,15 @@
  *
  */
 
+function lastSurvivor(letters, coords) {
+  for (let n of coords) {
+    letters = letters.slice(0, n) + letters.slice(n + 1)
+  }
+
+  return letters
+}
+
+// Previous solution
 const lastSurvivor = (letters, coords) => {
   const arr = letters.split('')
 
