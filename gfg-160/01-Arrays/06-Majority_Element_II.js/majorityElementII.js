@@ -1,3 +1,10 @@
+/**
+ * Function to find Majority elements in an array
+ *
+ * My solution
+ *
+ */
+
 export function findMajority(arr) {
   const len = arr.length
   const oneThird = ~~(len / 3)
