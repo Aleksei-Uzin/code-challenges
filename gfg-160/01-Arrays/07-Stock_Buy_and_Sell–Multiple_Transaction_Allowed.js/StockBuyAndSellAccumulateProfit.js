@@ -1,0 +1,20 @@
+/**
+ * Function to find the maximum profit
+ *
+ * Time Complexity:
+ *  - O(n)
+ *
+ * Auxiliary Space:
+ *  - O(1)
+ *
+ */
+
+export function maximumProfit(prices) {
+  let profit = 0
+
+  for (let i = 1; i < prices.length; i++) {
+    if (prices[i] > prices[i - 1]) profit += prices[i] - prices[i - 1]
+  }
+
+  return profit
+}
